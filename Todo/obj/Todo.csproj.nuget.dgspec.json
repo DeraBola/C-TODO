@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HP\\Desktop\\C#TODO\\Todo\\Todo.csproj": {}
+    "c:\\Users\\HP\\OneDrive\\Desktop\\C#TODO\\Todo\\Todo.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HP\\Desktop\\C#TODO\\Todo\\Todo.csproj": {
+    "c:\\Users\\HP\\OneDrive\\Desktop\\C#TODO\\Todo\\Todo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HP\\Desktop\\C#TODO\\Todo\\Todo.csproj",
+        "projectUniqueName": "c:\\Users\\HP\\OneDrive\\Desktop\\C#TODO\\Todo\\Todo.csproj",
         "projectName": "Todo",
-        "projectPath": "c:\\Users\\HP\\Desktop\\C#TODO\\Todo\\Todo.csproj",
+        "projectPath": "c:\\Users\\HP\\OneDrive\\Desktop\\C#TODO\\Todo\\Todo.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HP\\Desktop\\C#TODO\\Todo\\obj\\",
+        "outputPath": "c:\\Users\\HP\\OneDrive\\Desktop\\C#TODO\\Todo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,18 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
